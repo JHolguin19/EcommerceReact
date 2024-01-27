@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom"
 import Logo from '../assets/imagenes/logo.png'
+import CartWidget from "./CartWidget"
 
 const Header = () =>{
     
@@ -20,7 +21,7 @@ const Header = () =>{
                     <li><Link to={"Blog"}>Blog</Link></li>
                     <li><Link to={"Us"}>Acerca de nosotros</Link></li>
                     <li><Link to={"Contacto"}>Contactanos</Link></li>
-                    <li><Link to={"Shop"}><i className="fa-solid fa-cart-shopping"></i></Link></li>
+                    <li><Link to={"Shop"}><CartWidget/></Link></li>
                     
                 </ul>
             </div>

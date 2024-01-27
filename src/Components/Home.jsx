@@ -4,7 +4,9 @@ import f3 from '../assets/imagenes/features/f3.png'
 import f4 from '../assets/imagenes/features/f4.png'
 import f5 from '../assets/imagenes/features/f5.png'
 import f6 from '../assets/imagenes/features/f6.png'
-import Productos from './Productos'
+import ItemDetail from './ItemDetail'
+import ItemListContainer from './ItemListContainer'
+
 
 const Home = () =>{
     return(
@@ -43,7 +45,8 @@ const Home = () =>{
                     <h6>Happy Sell</h6>
                 </div>
             </div>
-            <Productos/>      
+            <ItemListContainer/>  
+            <ItemDetail/>    
         </div>
 
 
