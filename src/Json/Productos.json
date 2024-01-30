@@ -5,7 +5,7 @@
     "nombre": "Cartoon Astronaunt T-Shirt",
     "precio":78,
     "imagen": "https://i.ibb.co/Wk08DwJ/f1.jpg",
-    "categoria":"Home / T-Shirt",
+    "categoria":"Camisa",
     "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     
@@ -15,7 +15,7 @@
         "nombre": "Hoddie",
         "precio":84,
         "imagen": "https://i.ibb.co/swm4ZtD/f2.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Hoddie",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
         },
@@ -26,7 +26,7 @@
         "nombre": "Camisa Veraniega",
         "precio":42,
         "imagen": "https://i.ibb.co/2qzNxWL/f3.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Camisa",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
     },
@@ -37,7 +37,7 @@
         "nombre": "Camisa de Flores Rojas",
         "precio":78,
         "imagen": "https://i.ibb.co/7gVr4x4/f4.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Camisa",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
         },
@@ -48,7 +48,7 @@
         "nombre": "Camisa de Flores Rojas",
         "precio":78,
         "imagen": "https://i.ibb.co/MM2cQxv/f5.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Camisa",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
         },
@@ -59,7 +59,7 @@
         "nombre": "Chamarra Doble Color",
         "precio":60,
         "imagen": "https://i.ibb.co/FVL4Dzr/f6.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Chamarra",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
     },
@@ -68,7 +68,7 @@
         "nombre": "Pantalon Unisex",
         "precio":100,
         "imagen": "https://i.ibb.co/Jd6DzHy/f7.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Pantalon",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
     },
@@ -78,7 +78,7 @@
         "nombre": "Blusa Rosada",
         "precio":50,
         "imagen": "https://i.ibb.co/fFdzx5x/n1.jpg",
-        "categoria":"Home / T-Shirt",
+        "categoria":"Blusa",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
     }

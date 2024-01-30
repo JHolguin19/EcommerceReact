@@ -1,15 +1,17 @@
 import { useEffect, useState } from 'react'
 import arrayProductos from '../Json/Productos.json'
 import ItemDetail from './ItemDetail'
+import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () =>{
 
     const [item, setItem] = useState([]);
+    const {id} = useParams();
 
-    useEffect(()=>{
+    useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(()=>{
-                let producto = arrayProductos.find(item=> item.id === 1);
+                let producto = arrayProductos.find(item=> item.id === parseInt(id));
                 resolve(producto);
             }, 2000);
                        
@@ -20,7 +22,7 @@ const ItemDetailContainer = () =>{
             
         })
         
-    }, []);
+    }, [id]);
 
     return(
         <ItemDetail item={item}/>
