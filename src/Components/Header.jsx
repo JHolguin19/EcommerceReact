@@ -21,7 +21,7 @@ const Header = () =>{
                     <li><NavLink to={"Blog"}>Blog</NavLink></li>
                     <li><NavLink to={"Us"}>Acerca de nosotros</NavLink></li>
                     <li><NavLink to={"Contacto"}>Contactanos</NavLink></li>
-                    <li><NavLink to={"Shop"}><CartWidget/></NavLink></li>
+                    <li><NavLink to={"Carrito"}><CartWidget/></NavLink></li>
                     
                 </ul>
             </div>

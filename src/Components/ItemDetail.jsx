@@ -1,3 +1,5 @@
+import ItemCount from "./ItemCount";
+
 const ItemDetail = ({item}) =>{
 
     return(
@@ -32,8 +34,7 @@ const ItemDetail = ({item}) =>{
             <option>L</option>
             <option>S</option>
         </select>
-        <input type="number"  value="1"/>
-        <button className="normal añadircarrito">Add to cart</button>
+        <ItemCount stock={item.stock}/>
         <h4>Products Details</h4>
         <span>{item.detalles}</span>
 

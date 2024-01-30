@@ -21,7 +21,6 @@ const Item = ({item}) =>{
                     <h4 className="price">${item.precio}</h4>
                     <button className="normal añadircarrito">Ver más</button>
                 </div>
-                    <i className="fal fa-shopping-cart cart" ></i>
             </Link>
     
            
