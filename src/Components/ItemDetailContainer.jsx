@@ -9,16 +9,18 @@ const ItemDetailContainer = () =>{
     useEffect(()=>{
         const promesa = new Promise((resolve) => {
             setTimeout(()=>{
-                let producto = arrayProductos.find(item=> item.id == 1);
+                let producto = arrayProductos.find(item=> item.id === 1);
                 resolve(producto);
-            }, 2000)
+            }, 2000);
                        
         })
-
+        
         promesa.then(data => {
-            setItem(data)
+            setItem(data);
+            
         })
-    }, [])
+        
+    }, []);
 
     return(
         <ItemDetail item={item}/>

@@ -3,7 +3,7 @@ const ItemDetail = ({item}) =>{
     return(
         <div id="prodetails" className="section-p1">
             <div className="single-pro-image">
-            <img src={""} width="100%" id="MainImage"/>
+            <img src={item.imagen} width="100%" id="MainImage"/>
         
             <div className="small-img-group">
             <div className="small-img-col">

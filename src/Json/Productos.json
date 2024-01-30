@@ -4,7 +4,7 @@
     "marca":"Adidas",    
     "nombre": "Cartoon Astronaunt T-Shirt",
     "precio":78,
-    "imagen": "../assets/imagenes/products/f1.jpg",
+    "imagen": "https://i.ibb.co/Wk08DwJ/f1.jpg",
     "categoria":"Home / T-Shirt",
     "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
@@ -14,7 +14,7 @@
         "marca":"Nike",    
         "nombre": "Hoddie",
         "precio":84,
-        "imagen": "/imagenes/products/f2.jpg",
+        "imagen": "https://i.ibb.co/swm4ZtD/f2.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
@@ -25,7 +25,7 @@
         "marca":"Adidas",    
         "nombre": "Camisa Veraniega",
         "precio":42,
-        "imagen": "../imagenes/products/f3.jpg",
+        "imagen": "https://i.ibb.co/2qzNxWL/f3.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
@@ -36,7 +36,7 @@
         "marca":"Puma",    
         "nombre": "Camisa de Flores Rojas",
         "precio":78,
-        "imagen": "../imagenes/products/f4.jpg",
+        "imagen": "https://i.ibb.co/7gVr4x4/f4.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
@@ -47,7 +47,7 @@
         "marca":"Diadora",    
         "nombre": "Camisa de Flores Rojas",
         "precio":78,
-        "imagen": "../imagenes/products/f5.jpg",
+        "imagen": "https://i.ibb.co/MM2cQxv/f5.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
@@ -58,7 +58,7 @@
         "marca":"Adidas",    
         "nombre": "Chamarra Doble Color",
         "precio":60,
-        "imagen": "../imagenes/products/f6.jpg",
+        "imagen": "https://i.ibb.co/FVL4Dzr/f6.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
@@ -67,7 +67,7 @@
         "marca":"Adidas",    
         "nombre": "Pantalon Unisex",
         "precio":100,
-        "imagen": "../imagenes/products/f7.jpg",
+        "imagen": "https://i.ibb.co/Jd6DzHy/f7.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
@@ -77,7 +77,7 @@
         "marca":"Velez",    
         "nombre": "Blusa Rosada",
         "precio":50,
-        "imagen": "../imagenes/products/f8.jpg",
+        "imagen": "https://i.ibb.co/fFdzx5x/n1.jpg",
         "categoria":"Home / T-Shirt",
         "detalles":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
