@@ -2,35 +2,26 @@ import { useEffect, useState } from 'react'
 import arrayProductos from '../Json/Productos.json'
 import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router-dom';
-import { getDoc, getFirestore, doc, where} from 'firebase/firestore'
+import { getFirestore, getDoc, doc } from 'firebase/firestore';
 
-const ItemDetailContainer = ({ id }) =>{
+const ItemDetailContainer = ({}) => {
 
-    const [item, setItem] = useState(null)
+    const [item, setItem] = useState([]);
 
 
-    useEffect(()=>{
+    const {id} = useParams();
+
+    useEffect(() => {
         const db = getFirestore();
-        const docRef = doc(db, "items", id);
+        const producto = doc(db, "items", id)
+        getDoc(producto).then(producto => {
+            setItem({id:producto.id, ...producto.data()})
+        });
         
-        getDoc(docRef).then((snapshot)  =>  {
-            if(snapshot.exists()) {
-                setItem({id: snapshot.id, ...snapshot.data()})
-            }
-    })
-
-    }, [])
-
-    console.log(item)
+    }, [id]);
 
     return(
-        <>
-        {            
-            item !== null &&
         <ItemDetail item={item}/>
-        }
-        </>
-        
     )
 
 

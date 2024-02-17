@@ -10,11 +10,14 @@ import ItemListContainer from './Components/ItemListContainer';
 import ItemDetailContainer from './Components/ItemDetailContainer';
 import Footer from './Components/Footer';
 import Register from './Components/Register';
+import Cart from './Components/Cart';
+import CartContextProvider from './Components/CartContext';
 function App() {
   
 
   return (
     <>
+    <CartContextProvider>
     <BrowserRouter>
       <Header/>
     
@@ -27,11 +30,13 @@ function App() {
           <Route path="/Blog" element={<Blog/>}/>
           <Route path="/Us" element={<Us/>}/>
           <Route path="/Contacto" element={<Contacto/>}/>
+          <Route path="/Cart" element={<Cart/>}/>
 
         </Routes>
       <Register/> 
       <Footer/>
      </BrowserRouter>
+     </CartContextProvider>
     </>
   )
 }
