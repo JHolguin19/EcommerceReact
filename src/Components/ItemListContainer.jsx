@@ -2,29 +2,34 @@ import arrayProductos from '../Json/Productos.json'
 import { useEffect, useState } from "react";
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
+import { collection, getDocs, getFirestore, query } from 'firebase/firestore'
 
 
 
 const ItemListContainer = () =>{
     const [items, setItems] = useState([]);
+
+    // Databased Firestore
     const {id} = useParams();
 
-    useEffect(() => {
-        const promesa = new Promise((resolve) => {
-            setTimeout(()=>{
-                resolve(id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos );
-            }, 2000)
-                       
-        })
+    useEffect(()=> {
+        const db = getFirestore();
+        const colRef = collection(db, "items")
 
-        promesa.then(data => {
+        getDocs(colRef).then((snapshot) => {
+            const data = snapshot.docs.map(doc =>({id: doc.id, ...doc.data()}))
             setItems(data)
             console.log(data)
+
         })
-        
-    }, [id]);
+    }, [id])
+
+
+
+
 
         return(
+            
             <ItemList items={items}/>
         )
 
