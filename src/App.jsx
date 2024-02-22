@@ -12,6 +12,7 @@ import Footer from './Components/Footer';
 import Register from './Components/Register';
 import Cart from './Components/Cart';
 import CartContextProvider from './Components/CartContext';
+import Checkout from './Components/Checkout';
 function App() {
   
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/Us" element={<Us/>}/>
           <Route path="/Contacto" element={<Contacto/>}/>
           <Route path="/Cart" element={<Cart/>}/>
+          <Route path="/Checkout" element={<Checkout/>}/>
 
         </Routes>
       <Register/> 
